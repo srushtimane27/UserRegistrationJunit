@@ -15,14 +15,4 @@ public class UserValidatorTest {
         Assertions.assertFalse(result);
     }
 
-    //Test Cases For Last Name
-    @Test
-    public void givenLastName_WhenStartsWithCapsAndHasMinimumThreeCharacters_ShouldReturnTrue(){
-        UserValidator validator = new UserValidator();
-        boolean result = validator.validateLastName("Mane");
-        Assertions.assertFalse(result);
-    }
-
-
-
 }
