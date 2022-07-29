@@ -12,7 +12,7 @@ public class UserValidatorTest {
     public void givenFirstName_WhenStartsWithCapsAndHasMinimumThreeCharacters_ShouldReturnTrue(){
         UserValidator validator = new UserValidator();
         boolean result = validator.validateFirstName("Alka");
-        Assertions.assertFalse(result);
+        Assertions.assertTrue(result);
     }
 
     //Test Cases For Last Name
@@ -20,7 +20,13 @@ public class UserValidatorTest {
     public void givenLastName_WhenStartsWithCapsAndHasMinimumThreeCharacters_ShouldReturnTrue(){
         UserValidator validator = new UserValidator();
         boolean result = validator.validateLastName("Mane");
-        Assertions.assertFalse(result);
+        Assertions.assertTrue(result);
+    }
+    @Test
+    public void givenEmail_WhenValid_ShouldReturnTrue(){
+        UserValidator validator = new UserValidator();
+        boolean result = validator.validateEmailAddress("abc@gmail.com");
+        Assertions.assertTrue(result);
     }
 
 

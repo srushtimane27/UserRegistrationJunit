@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d279f2af-b196-4e45-8cca-d7a9645125cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Bridgelabz/ValidEmailTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Bridgelabz/UserValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Bridgelabz/UserValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Bridgelabz/UserValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Bridgelabz/UserValidatorTest.java" afterDir="false" />
     </list>
@@ -61,8 +62,8 @@
       <recent name="com.Bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UserValidatorTest.givenFirstName_WhenProper_ShouldReturnTrue">
-    <configuration name="UserValidatorTest.givenFirstName_WhenFirstLetterCapital_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.UserValidatorTest.givenFirstName_WhenStartsWithCapsAndHasMinimumThreeCharacters_ShouldReturnTrue">
+    <configuration name="UserValidatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -75,7 +76,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.Bridgelabz.UserValidatorTest.givenFirstName_WhenFirstLetterCapital_ShouldReturnTrue&quot;" />
+            <option value="&quot;com.Bridgelabz.UserValidatorTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -85,7 +86,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserValidatorTest.givenFirstName_WhenProper_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserValidatorTest.givenEmail_WhenValid_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -98,7 +99,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.Bridgelabz.UserValidatorTest.givenFirstName_WhenProper_ShouldReturnTrue&quot;" />
+            <option value="&quot;com.Bridgelabz.UserValidatorTest.givenEmail_WhenValid_ShouldReturnTrue&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -108,7 +109,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserValidatorTest.givenFirstName_WhenShort_ShouldReturnFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserValidatorTest.givenFirstName_WhenStartsWithCapsAndHasMinimumThreeCharacters_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -121,7 +122,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.Bridgelabz.UserValidatorTest.givenFirstName_WhenShort_ShouldReturnFalse&quot;" />
+            <option value="&quot;com.Bridgelabz.UserValidatorTest.givenFirstName_WhenStartsWithCapsAndHasMinimumThreeCharacters_ShouldReturnTrue&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -154,7 +155,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserValidatorTest.givenLastName_WhenLastNameHasMinThreeCharacters_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidEmailTest.givenEmail_WhenValid_shouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -167,7 +168,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.Bridgelabz.UserValidatorTest.givenLastName_WhenLastNameHasMinThreeCharacters_ShouldReturnTrue&quot;" />
+            <option value="&quot;com.Bridgelabz.ValidEmailTest.givenEmail_WhenValid_shouldReturnTrue[*]&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -179,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.UserValidatorTest.givenFirstName_WhenProper_ShouldReturnTrue" />
-        <item itemvalue="Gradle.UserValidatorTest.givenFirstName_WhenShort_ShouldReturnFalse" />
-        <item itemvalue="Gradle.UserValidatorTest.givenLastName_WhenLastNameHasMinThreeCharacters_ShouldReturnTrue" />
-        <item itemvalue="Gradle.UserValidatorTest.givenFirstName_WhenFirstLetterCapital_ShouldReturnTrue" />
+        <item itemvalue="Gradle.UserValidatorTest.givenFirstName_WhenStartsWithCapsAndHasMinimumThreeCharacters_ShouldReturnTrue" />
+        <item itemvalue="Gradle.UserValidatorTest.givenEmail_WhenValid_ShouldReturnTrue" />
+        <item itemvalue="Gradle.ValidEmailTest.givenEmail_WhenValid_shouldReturnTrue" />
         <item itemvalue="Gradle.UserValidatorTest.givenLastName_WhenLastLetterCapital_ShouldReturnTrue" />
+        <item itemvalue="Gradle.UserValidatorTest" />
       </list>
     </recent_temporary>
   </component>
